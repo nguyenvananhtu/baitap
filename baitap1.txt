@@ -1,0 +1,22 @@
+package basic.dev;
+
+import java.util.Scanner;
+
+public class MainApp { 
+	
+	public static void main(String[] args) {	
+		// TODO Auto-generated method stub
+		String hoTen;
+        int namSinh;
+         
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhap vao ho ten cua sinh vien : ");
+        hoTen = scanner.nextLine();
+        System.out.println("Nhap vao nam sinh cua sinh vien: ");
+        namSinh = scanner.nextInt();
+        
+        System.out.println("Ho ten cua sinh vien: " + hoTen);
+        System.out.println("Tuoi cua sinh vien =  " + namSinh);
+	
+	}
+}
